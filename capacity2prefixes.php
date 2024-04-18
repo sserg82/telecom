@@ -27,7 +27,7 @@ function _capacity2prefixes_normalize($from,$to)
         return false;
     }
               
-    public static function capacity2prefixes($from,$to)
+function capacity2prefixes($from,$to)
     {
         $prefixes=[];
         if (mb_strlen($from)!=mb_strlen($to))
